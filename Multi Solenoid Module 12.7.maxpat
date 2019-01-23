@@ -1152,7 +1152,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 429.0, 403.607147, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "1 15 0"
+					"text" : "3 5 0"
 				}
 
 			}
