@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1430.0, 22.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1463.0, 27.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "metro 250"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
@@ -181,7 +207,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1068.0, 282.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "192.168.2.10"
+					"text" : "192.168.2.8"
 				}
 
 			}
@@ -1152,7 +1178,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 429.0, 403.607147, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "1 15 0"
+					"text" : "3 84 0"
 				}
 
 			}
@@ -1344,7 +1370,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1402,7 +1428,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4939,7 +4965,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5065,7 +5091,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5698,7 +5724,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6344,7 +6370,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6599,7 +6625,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9969,7 +9995,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10195,7 +10221,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13136,7 +13162,7 @@
 					"allowdrag" : 0,
 					"fontname" : "Big Caslon Medium",
 					"id" : "obj-26",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A6026P9D" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A104JSQI", ",", "usbserial-AL00FQ7X" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13154,7 +13180,7 @@
 					"allowdrag" : 0,
 					"fontname" : "Big Caslon Medium",
 					"id" : "obj-3",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A6026P9D" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A104JSQI", ",", "usbserial-AL00FQ7X" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13318,7 +13344,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14307,7 +14333,7 @@
 					"allowdrag" : 0,
 					"fontname" : "Big Caslon Medium",
 					"id" : "obj-15",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A6026P9D" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbserial-A104JSQI", ",", "usbserial-AL00FQ7X" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15028,6 +15054,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"midpoints" : [ 1220.5, 165.0, 1220.5, 165.0 ],
 					"source" : [ "obj-83", 0 ]
@@ -15068,6 +15101,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-83", 1 ],
 					"midpoints" : [ 1266.5, 132.0, 1266.5, 132.0 ],
 					"source" : [ "obj-93", 0 ]
@@ -15084,8 +15124,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Glocky_remap",
-				"bootpath" : "~/Google Drive/Music/Music Technology/Patches",
-				"patcherrelativepath" : "../../../Music/Music Technology/Patches",
+				"bootpath" : "~/Google Drive/Music/Music Technology/Max/Max Patches",
+				"patcherrelativepath" : "../../../Music/Music Technology/Max/Max Patches",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
